@@ -1,6 +1,5 @@
 package org.example
 
-import garagesystem.Member
 import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString
 
@@ -19,7 +18,7 @@ class User implements Serializable {
 	boolean accountLocked
 	boolean passwordExpired
 
-	Member member
+//	Member member
 
 	User(String username, String password) {
 		//this()
