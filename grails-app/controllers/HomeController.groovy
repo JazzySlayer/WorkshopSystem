@@ -11,10 +11,10 @@ class HomeController {
         if(springSecurityService.isLoggedIn()){
 
             if(SpringSecurityUtils.ifAllGranted("ROLE_MEMBER")){
-                render "Hi I am member          "
+                redirect(controller: 'member',action: 'index')
             }
             else if(SpringSecurityUtils.ifAllGranted("ROLE_WORKSHOP_MEMBER")){
-                render "Hi I am workshop member!! I am for your help here!!!!"
+                redirect(controller: 'workshop',action: 'index')
             }
             else if(SpringSecurityUtils.ifAllGranted("ROLE_ADMIN")){
                 render "Hi I am admin"
