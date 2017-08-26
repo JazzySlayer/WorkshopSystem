@@ -12,7 +12,7 @@
     <title>
         header
     </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -27,12 +27,17 @@
         </a>
 
 
-        <ul class="nav nav-pills nav-justified" style="margin-top: 30;">
-            <li role="presentation"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Profile</a></li>
-            <li role="presentation"><a href="#">Messages</a></li>
-        </ul>
-
+        <div id="menus" style="float:right;width:30%">
+            <div id="inner_menus1" style="float:left;width:30%">
+                <g:remoteLink controller="member" action="index" style="color: #040505">Front Page</g:remoteLink>
+            </div>
+            <div id="inner_menus2" style="float:left;width:30%;marigin:0px 3px 0px 3px">
+                <g:remoteLink controller="member" action="showHistory" style="color: #040505">Show History</g:remoteLink>
+            </div>
+            <div id="inner_menus3" style="float:right;width:36%">
+                Hello Sushant
+            </div>
+        </div>
     </nav>
     <div class="row" style="height: 10px">
     </div>
@@ -57,7 +62,7 @@
                         </tbody>
                     </table>
                     <div class="panel-body">
-                        <textarea name="Text1" cols="95" rows="3" ></textarea>
+                        <textarea name="Text1" cols="85" rows="3" ></textarea>
                     </div>
 
 
