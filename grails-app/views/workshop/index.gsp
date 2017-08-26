@@ -1,9 +1,10 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Sushant
-  Date: 8/25/2017
-  Time: 6:25 PM
+  User: rojina
+  Date: 8/26/17
+  Time: 10:47 AM
 --%>
+
 
 <%@ page contentType="text/html;charset=UTF-8" %>
 
@@ -44,29 +45,67 @@
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-            <div class="panel panel-default">
+            <div class="panel  panel-primary">
+                <div class="panel-heading">Task Pending</div>
                 <div class="panel-body">
                     <table class="table ">
-                        <thead>
+                        <thead style="background-color: #b0c4de;">
                         <tr>
-
-                            <th>   <input type="text" name="search" placeholder="Search by location"></th>
-                            <th>   <input type="text" name="search" placeholder="Search by location"></th>
+                            <th>S. No</th>
+                            <th>Name</th>
+                            <th>Available</th>
+                            <th>Amount</th>
+                            <th>Location</th>
+                        </tr>
+                        </tr>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td>    <b> <input type="text" name="search" placeholder="Search by service"></b></td>
-                            <td>   <b><input type="text" name="search" placeholder="Search by location"></b></td>
+                            <td>Default</td>
+                            <td>Defaultson</td>
+                            <td>def@somemail.com</td>
+                            <td>Default</td>
+                            <td>Defaultson</td>
                         </tr>
+                        <tr >
+                            <td>Success</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                            <td>Default</td>
+                            <td>Defaultson</td>
+                        </tr>
+                        <tr >
+                            <td>Danger</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                            <td>Default</td>
+                            <td>Defaultson</td>
+                        </tr>
+                        <tr>
+                            <td>Default</td>
+                            <td>Defaultson</td>
+                            <td>def@somemail.com</td>
+                            <td>Default</td>
+                            <td>Defaultson</td>
+                        </tr>
+                        <tr >
+                            <td>Success</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                            <td>Default</td>
+                            <td>Defaultson</td>
+                        </tr>
+                        <tr >
+                            <td>Danger</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                            <td>Default</td>
+                            <td>Defaultson</td>
+                        </tr>
+
                         </tbody>
                     </table>
-                    <div class="panel-body">
-                        <textarea name="Text1" cols="85" rows="3" ></textarea>
-                    </div>
-
-
-
 
                 </div>
             </div>
@@ -80,42 +119,38 @@
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-        <div class="panel panel-info">
-            <div class="panel-heading">Service Taken</div>
-            <div class="panel-body">
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th>S. No.</th>
-                        <th>Name</th>
-                        <th>Amount</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Service 1</td>
-                        <td>100</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Service 2</td>
-                        <td>500</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><b>Total</b></td>
-                        <td><b>500</b></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td><button class="btn btn-success" style="width: 75px">Bill</button></td>
-                    </tr>
-                    </tbody>
-                </table>
+            <div class="panel panel-danger">
+                <div class="panel-heading">Unavailabe parts</div>
+                <div class="panel-body">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>S. No.</th>
+                            <th>Name</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Service 1</td>
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Service 2</td>
+
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
         </div>
         <div class="col-md-2"></div>
     </div>
@@ -129,4 +164,4 @@
 
 </body>
 
-</html>
+</html></html>
