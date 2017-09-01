@@ -143,7 +143,7 @@
             </div>
         </div>
     </div>
-    <div class="row" style="height: 10px">
+    <div class="row" style="height: 20px">
     </div>
     <div class="row">
             <div class="col-md-12">
@@ -174,7 +174,7 @@
                     </table>
             </div>
 
-
+        <button type="button" style=" margin-left: 1228px;" class="btn btn-primary btn-lg">Bill</button>
         </div>
 
     <div id="footer">
