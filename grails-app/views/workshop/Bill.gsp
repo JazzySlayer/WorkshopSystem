@@ -12,9 +12,10 @@
     <title>
         header
     </title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
@@ -28,6 +29,7 @@
 
 
         <div id="menus" style="float:right;width:30%">
+
             <div id="inner_menus1" style="float:left;width:30%">
                 <g:remoteLink controller="member" action="index" style="color: #040505">Front Page</g:remoteLink>
             </div>
@@ -39,92 +41,145 @@
             </div>
         </div>
     </nav>
-    <div class="row" style="height: 10px">
+    <div class="row" style="height: 5px">
     </div>
     <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <table class="table ">
-                        <thead>
-                        <tr>
 
-                            <th>   <input type="text" name="search" placeholder="Search by location"></th>
-                            <th>   <input type="text" name="search" placeholder="Search by location"></th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>    <b> <input type="text" name="search" placeholder="Search by service"></b></td>
-                            <td>   <b><input type="text" name="search" placeholder="Search by location"></b></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <div class="panel-body">
-                        <textarea name="Text1" cols="85" rows="3" ></textarea>
-                    </div>
+        <div class="col-md-2">
+            <h5>Registration No.</h5>
+            <div class="input-group" style="width: 160px">
+                <input type="text" class="form-control"
+                       />
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-search"></i>
+                </span>
+            </div>
 
+        </div>
+        <div class="col-md-2">
+            <h5>Owner Name</h5>
+            <div class="input-group" style="width: 160px">
+                <input type="text" class="form-control"
+                      />
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-search"></i>
+                </span>
+            </div>
 
+        </div>
+        <div class="col-md-2">
+            <h5>Member No.</h5>
+            <div class="input-group" style="width: 160px">
+                <input type="text" class="form-control"
+                      />
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-search"></i>
+                </span>
+            </div>
 
+        </div>
+        <div class="col-md-2">
+            <h5>Email</h5>
+            <div class="input-group" style="width: 160px">
+                <input type="text" class="form-control"
+                   />
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-search"></i>
+                </span>
+            </div>
 
-                </div>
+        </div>
+        <div class="col-md-2">
+            <h5>Contact No.</h5>
+            <div class="input-group" style="width: 160px">
+                <input type="text" class="form-control"
+                />
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-search"></i>
+                </span>
+            </div>
+
+        </div>
+        <div class="col-md-2">
+            <h5>Address</h5>
+            <div class="input-group" style="width: 160px">
+                <input type="text" class="form-control"
+                />
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-search"></i>
+                </span>
+            </div>
+
+        </div>
+        <div class="col-md-2">
+            <h5>Indicator No.</h5>
+            <div class="input-group" style="width: 160px">
+                <input type="text" class="form-control"
+                />
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-search"></i>
+                </span>
+            </div>
+
+        </div>
+        <div class="col-md-2">
+            <h5>Vehicle make year</h5>
+            <div class="input-group" style="width: 160px">
+                <input type="text" class="form-control"
+                />
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-search"></i>
+                </span>
             </div>
         </div>
-
-        <div class="col-md-2"></div>
-
+        <div class="col-md-2">
+            <h5>Vehicle make model</h5>
+            <div class="input-group" style="width: 160px">
+                <input type="text" class="form-control"
+                />
+                <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-search"></i>
+                </span>
+            </div>
+        </div>
     </div>
     <div class="row" style="height: 10px">
     </div>
     <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <div class="panel panel-info">
-                <div class="panel-heading">Service Taken</div>
-                <div class="panel-body">
-                    <table class="table">
-                        <thead>
+            <div class="col-md-12">
+                    <table class="table ">
+                        <thead style="background-color: #b0c4de;">
                         <tr>
-                            <th>S. No.</th>
-                            <th>Name</th>
+                            <th>Part</th>
+                            <th>Remark</th>
                             <th>Amount</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td>1</td>
-                            <td>Service 1</td>
-                            <td>100</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Service 2</td>
-                            <td>500</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><b>Total</b></td>
-                            <td><b>500</b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td><button class="btn btn-success" style="width: 75px">Bill</button></td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                                <button type="button" class="btn btn-default" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                </button>
+                            </td>
                         </tr>
                         </tbody>
                     </table>
-                </div>
             </div>
+
+
         </div>
-        <div class="col-md-2"></div>
-    </div>
 
-
-</div>
-<div id="footer">
+    <div id="footer">
     This is footer
-</div>
+    </div>
 </div>
 
 </body>
