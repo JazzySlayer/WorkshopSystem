@@ -9,7 +9,7 @@
 	<g:render template="/layouts/header"/>
 </head>
 
-<body style="margin-top: 70px">
+<body style="margin-top: 75px; margin-bottom: 70px">
 
 <g:layoutBody/>
 <g:render template="/layouts/footer"/>
