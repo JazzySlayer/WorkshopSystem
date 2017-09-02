@@ -12,6 +12,7 @@
 <body style="margin-top: 75px; margin-bottom: 70px">
 
 <g:layoutBody/>
+
 <g:render template="/layouts/footer"/>
 </body>
 
