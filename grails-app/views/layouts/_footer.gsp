@@ -2,7 +2,7 @@
     %{--This is footer--}%
 %{--</div>--}%
 
-<nav class="navbar  navbar-inverse bg-primary navbar-fixed-bottom">
+<nav class="navbar navbar-default  navbar-fixed-bottom" style="background-color: #f1f8e9">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">
